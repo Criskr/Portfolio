@@ -172,9 +172,20 @@ nav li {
     transform: scale(1.2);
 }
 
-.comingsoon1 {
+.projeto_corinthians {
+    width:304px;
+    height: 144px;
+    margin-bottom: 50px;
     border-left: 4px solid rgb(77,183,229);
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+.projeto_corinthians:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
 
 .comingsoon2 {
     border-left: 4px solid rgb(77,183,229);
